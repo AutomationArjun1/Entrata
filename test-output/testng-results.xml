@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-04T16:01:12 IST" name="Suite" finished-at="2025-07-04T16:02:29 IST" duration-ms="76504">
+    <groups>
+    </groups>
+    <test started-at="2025-07-04T16:01:12 IST" name="Test" finished-at="2025-07-04T16:02:29 IST" duration-ms="76504">
+      <class name="tests.SignupTest">
+        <test-method is-config="true" signature="initializeReports()[pri:0, instance:tests.SignupTest@7103cb56]" started-at="2025-07-04T16:01:12 IST" name="initializeReports" finished-at="2025-07-04T16:01:12 IST" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeReports -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.SignupTest@7103cb56]" started-at="2025-07-04T16:01:12 IST" name="setUp" finished-at="2025-07-04T16:01:41 IST" duration-ms="28450" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.SignupTest.testSignupFormInput()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSignupFormInput()[pri:0, instance:tests.SignupTest@7103cb56]" started-at="2025-07-04T16:01:41 IST" name="testSignupFormInput" finished-at="2025-07-04T16:01:55 IST" duration-ms="14020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignupFormInput -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.SignupTest@7103cb56]" started-at="2025-07-04T16:01:55 IST" name="tearDown" finished-at="2025-07-04T16:01:55 IST" duration-ms="731" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSignupFormInput status=SUCCESS method=SignupTest.testSignupFormInput()[pri:0, instance:tests.SignupTest@7103cb56] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:tests.SignupTest@7103cb56]" started-at="2025-07-04T16:02:29 IST" name="flushReports" finished-at="2025-07-04T16:02:29 IST" duration-ms="370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+      </class> <!-- tests.SignupTest -->
+      <class name="tests.NavigationTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.NavigationTest@6492fab5]" started-at="2025-07-04T16:02:14 IST" name="setUp" finished-at="2025-07-04T16:02:22 IST" duration-ms="8229" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.NavigationTest.testNavigateToProductUpdates()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testNavigateToProductUpdates()[pri:0, instance:tests.NavigationTest@6492fab5]" started-at="2025-07-04T16:02:22 IST" name="testNavigateToProductUpdates" finished-at="2025-07-04T16:02:28 IST" duration-ms="5599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigateToProductUpdates -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.NavigationTest@6492fab5]" started-at="2025-07-04T16:02:28 IST" name="tearDown" finished-at="2025-07-04T16:02:29 IST" duration-ms="672" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testNavigateToProductUpdates status=SUCCESS method=NavigationTest.testNavigateToProductUpdates()[pri:0, instance:tests.NavigationTest@6492fab5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.NavigationTest -->
+      <class name="tests.SignInTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.SignInTest@72c28d64]" started-at="2025-07-04T16:01:55 IST" name="setUp" finished-at="2025-07-04T16:02:04 IST" duration-ms="8927" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.SignInTest.testFormFieldInteraction()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFormFieldInteraction()[pri:0, instance:tests.SignInTest@72c28d64]" started-at="2025-07-04T16:02:04 IST" name="testFormFieldInteraction" finished-at="2025-07-04T16:02:13 IST" duration-ms="9147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFormFieldInteraction -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.SignInTest@72c28d64]" started-at="2025-07-04T16:02:13 IST" name="tearDown" finished-at="2025-07-04T16:02:14 IST" duration-ms="682" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFormFieldInteraction status=SUCCESS method=SignInTest.testFormFieldInteraction()[pri:0, instance:tests.SignInTest@72c28d64] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SignInTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
