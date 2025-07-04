@@ -1,0 +1,7 @@
+tests\NavigationTest.class
+utilities\ExtentReport.class
+utilities\ConfigReader.class
+tests\SignupTest.class
+tests\BaseTest.class
+utilities\ScreenshotUtil.class
+tests\SignInTest.class

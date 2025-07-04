@@ -8,6 +8,8 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
 import utilities.ConfigReader;
 import utilities.ExtentReport;
 import utilities.ScreenshotUtil;
@@ -30,6 +32,7 @@ public class BaseTest {
     @BeforeMethod
     public void setUp(Method method) {
         config = new ConfigReader(CONFIG_PATH); // loads testdata.properties
+        WebDriverManager.chromedriver().setup(); // ✅ automatically sets correct driver
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
