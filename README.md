@@ -27,10 +27,13 @@ This project automates key UI checks for [Entrata.com](https://www.entrata.com) 
 mvn clean test
 ```
 
+-> or open testng.xml file click on Alt+Shift+X,G  or Right click on Run as testNG Suite
+
+
 ## 📄 Reports & Logs
 
 - HTML Report: `reports/extent-report.html`
-- Screenshots on failure: `screenshots/*.png`
+- Screenshots on failure and success: `screenshots/*.png`
 
 ## ⚠️ Notes
 - Form **submissions are disabled**; test only interacts with elements.
